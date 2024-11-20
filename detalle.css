@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2cfeb;
+}
+
+header {
+    background-color: #9764c7;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+#ulmenu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#ulmenu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#ulmenu svg {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+#ulmenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#ulmenu a:hover {
+    color: #FFD700; /* Color dorado cuando se pasa el mouse */
+}
+
+#contar {
+    display: flex;
+    align-items: center; /* Centra los elementos verticalmente */
+    gap: 10px; /* Espacio entre los elementos */
+    margin-top: 20px; /* Margen superior para separación */
+}
+
+img{
+    height: 450px;
+    width: 450px;
+}
+
+#boxproducto {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
